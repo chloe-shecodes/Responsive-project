@@ -10,8 +10,12 @@
   --secondary-font: "Roboto", sans-serif;
 }
 
-h1 {
+body {
+  background-color: var(--fourth-color-background);
   font-family: var(--primary-font);
+}
+
+h1 {
   color: var(--fourth-color-text);
   font-size: 53px;
 }
@@ -20,15 +24,13 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-family: var(--primary-font);
+
   color: var(--second-color-text);
   font-weight: 300;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.9;
 }
-body {
-  background-color: var(--fourth-color-background);
-}
+
 .hero {
   background-color: var(--second-color-background);
 }
@@ -44,7 +46,6 @@ body {
 }
 
 .locations .primary-word {
-  font-family: var(--primary-font);
   color: var(--fourth-color-text);
   font-weight: 500;
   font-size: 13px;
@@ -53,17 +54,15 @@ body {
   background-color: var(--fourth-color-background);
   padding: 50px 40px;
   border-radius: 5px;
-
   border-top-right-radius: 45px;
 }
 
 .timeline .primary-word {
-  font-family: var(--primary-font);
   color: var(--first-color-text);
   font-weight: 400;
-  font-size: 13px;
 }
 
 .timeline li {
-  line-height: 2.3;
+  font-size: 17px;
+  line-height: 2.4;
 }
