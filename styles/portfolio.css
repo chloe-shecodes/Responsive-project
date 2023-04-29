@@ -1,11 +1,63 @@
-body {
-  background: red;
+:root {
+  --first-color: #ffaaa5;
+  --first-color-opacity: rgba(255, 170, 165, 0.8);
+  --second-color: #fcf8f3;
+  --third-color: #ffd3b6;
+  --fourth-color: #698474;
+  --fourth-color-opacity: rgba(105, 132, 116, 0.9);
+  --primary-font: "Montserrat", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
 }
 
 h1 {
-  color: white;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--primary-font);
+  font-size: 53px;
+  color: var(--fourth-color);
+  margin-left: 5px;
 }
-h2 {
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: var(--secondary-font);
+  color: var(--second-color);
+  font-weight: 300;
+}
+body {
+  background-color: var(--fourth-color-opacity);
+}
+.hero {
+  background-color: var(--second-color);
+  margin: 0, auto;
+  padding: 0;
+}
+
+.primary-word {
+  color: var(--first-color);
+  font-weight: 375;
+  font-size: 13px;
+}
+.locations {
+  background-color: var(--first-color-opacity);
+  border-radius: 8px;
+  padding: 15px 25px;
+}
+.locations .primary-word {
+  color: var(--fourth-color);
+  font-weight: 400;
+}
+.timeline {
+  background-color: var(--fourth-color-opacity);
+  padding: 50px 40px;
+  border-radius: 8px;
+}
+
+.timeline .primary-word {
+  font-family: var(--primary-font);
+  font-weight: 400;
+}
+.timeline li {
+  line-height: 1.9;
   font-family: "Roboto", sans-serif;
 }
