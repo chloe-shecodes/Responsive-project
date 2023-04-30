@@ -30,7 +30,6 @@ ul {
   font-weight: 300;
   font-size: 13px;
   line-height: 1.9;
-  white-space: nowrap;
 }
 
 .hero {
@@ -157,9 +156,7 @@ ul {
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
   }
-  .timeline li {
-    font-size: 13px;
-  }
+
   .projects {
     text-align: center;
   }
