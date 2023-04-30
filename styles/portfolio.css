@@ -35,7 +35,7 @@ ul {
   background-color: var(--second-color-background);
 }
 .container {
-  margin: 90px auto;
+  margin: 75px auto;
   justify-content: center;
   max-width: 700px;
 }
@@ -43,7 +43,7 @@ ul {
 .locations {
   background-color: var(--first-color-background);
   border-radius: 5px;
-  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
   padding: 15px 25px;
 }
 
@@ -52,11 +52,30 @@ ul {
   font-weight: 500;
   font-size: 13px;
 }
+
+.hero-button {
+  text-decoration: none;
+  color: var(--fourth-color-text);
+  font-family: var(--primary-font);
+  border: 2px solid var(--first-color-background);
+
+  border-radius: 5px;
+
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding: 10px 80px;
+}
+
+.hero-button:hover {
+  border: 2px solid var(--fourth-color-background);
+  color: var(--first-color-text);
+}
+
 .timeline {
   background-color: var(--fourth-color-background);
   padding: 50px 40px;
   border-radius: 5px;
-  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
 }
 
 .timeline .primary-word {
