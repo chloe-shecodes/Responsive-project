@@ -24,7 +24,6 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
-
   color: var(--second-color-text);
   font-weight: 300;
   font-size: 13px;
@@ -41,7 +40,6 @@ ul {
 }
 .coordinates {
   flex-direction: column;
-
   justify-content: space-between;
 }
 .locations {
@@ -61,11 +59,8 @@ ul {
   justify-content: center;
   text-decoration: none;
   color: var(--fourth-color-text);
-  font-family: var(--primary-font);
   border: 2px solid var(--first-color-background);
-
   border-radius: 5px;
-
   border-bottom-left-radius: 30px;
   border-top-right-radius: 30px;
   padding: 10px;
