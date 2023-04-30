@@ -40,7 +40,7 @@ ul {
   flex-wrap: nowrap;
   margin: 75px auto;
   justify-content: center;
-  max-width: 800px;
+  max-width: 900px;
 }
 .coordinates {
   flex-direction: column;
@@ -55,9 +55,14 @@ ul {
 
 .locations .primary-word {
   font-family: var(--primary-font);
-  color: var(--fourth-color-text);
+  color: var(--second-color-text);
   font-weight: 500;
   font-size: 13px;
+}
+
+.locations ul {
+  font-weight: 400;
+  color: var(--fourth-color-text);
 }
 
 .hero-button {
@@ -85,6 +90,7 @@ ul {
 }
 
 .timeline .primary-word {
+  text-decoration: none;
   font-family: var(--primary-font);
   color: var(--first-color-text);
   font-weight: 400;
