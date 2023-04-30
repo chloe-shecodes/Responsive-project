@@ -12,10 +12,12 @@
 
 body {
   background-color: var(--fourth-color-background);
-  font-family: var(--primary-font);
+  font-family: var(--secondary-font);
+  color: var(--third-color);
 }
 
 h1 {
+  font-family: var(--primary-font);
   color: var(--fourth-color-text);
   font-size: 53px;
 }
@@ -39,8 +41,7 @@ ul {
   flex-wrap: nowrap;
   margin: 75px auto;
   justify-content: center;
-
-  max-width: 700px;
+  max-width: 800px;
 }
 .coordinates {
   flex-direction: column;
@@ -54,6 +55,7 @@ ul {
 }
 
 .locations .primary-word {
+  font-family: var(--primary-font);
   color: var(--fourth-color-text);
   font-weight: 500;
   font-size: 13px;
@@ -62,8 +64,9 @@ ul {
 .hero-button {
   justify-content: center;
   text-decoration: none;
+  font-family: var(--primary-font);
   color: var(--fourth-color-text);
-  border: 2px solid var(--first-color-background);
+  border: 2px solid var(--third-color);
   border-radius: 5px;
   border-bottom-left-radius: 30px;
   border-top-right-radius: 30px;
@@ -83,6 +86,7 @@ ul {
 }
 
 .timeline .primary-word {
+  font-family: var(--primary-font);
   color: var(--first-color-text);
   font-weight: 400;
 }
@@ -92,11 +96,52 @@ ul {
   line-height: 2.4;
 }
 
+.projects {
+  font-family: var(--secondary-font);
+}
+
+.project-images {
+  border-radius: 5px;
+  border-top-right-radius: 45px;
+  border-bottom-left-radius: 45px;
+}
+
+.project-images img {
+  border-radius: 5px;
+  border-top-right-radius: 45px;
+  border-bottom-left-radius: 45px;
+  padding: 15px;
+
+  background-color: var(--third-color);
+  opacity: 75%;
+}
+
+.projects .primary-word {
+  font-family: var(--primary-font);
+  color: var(--first-color-text);
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.learn-more-button {
+  border: 2px solid var(--first-color-background);
+  color: var(--third-color);
+
+  font-family: var(--primary-font);
+
+  border-radius: 25px;
+  padding: 10px 20px;
+}
+
+.learn-more-button:hover {
+  background-color: var(--first-color-background);
+  color: var(--fourth-color-text);
+}
 @media (max-width: 768px) {
   h1 {
     font-size: 44px;
   }
-  .container {
+  .personal-info {
     text-align: center;
     margin: 15px;
   }
