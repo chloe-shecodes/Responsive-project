@@ -39,7 +39,11 @@ ul {
   justify-content: center;
   max-width: 700px;
 }
+.coordinates {
+  flex-direction: column;
 
+  justify-content: space-between;
+}
 .locations {
   background-color: var(--first-color-background);
   border-radius: 5px;
@@ -54,6 +58,7 @@ ul {
 }
 
 .hero-button {
+  justify-content: center;
   text-decoration: none;
   color: var(--fourth-color-text);
   font-family: var(--primary-font);
@@ -63,7 +68,7 @@ ul {
 
   border-bottom-left-radius: 30px;
   border-top-right-radius: 30px;
-  padding: 10px 80px;
+  padding: 10px;
 }
 
 .hero-button:hover {
