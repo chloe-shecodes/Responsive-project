@@ -111,7 +111,6 @@ ul {
   border-top-right-radius: 45px;
   border-bottom-left-radius: 45px;
   padding: 15px;
-
   background-color: var(--third-color);
   opacity: 75%;
 }
@@ -126,9 +125,7 @@ ul {
 .learn-more-button {
   border: 2px solid var(--first-color-background);
   color: var(--third-color);
-
   font-family: var(--primary-font);
-
   border-radius: 25px;
   padding: 10px 20px;
 }
@@ -137,6 +134,7 @@ ul {
   background-color: var(--first-color-background);
   color: var(--fourth-color-text);
 }
+
 @media (max-width: 768px) {
   h1 {
     font-size: 44px;
@@ -161,5 +159,8 @@ ul {
   }
   .timeline li {
     font-size: 13px;
+  }
+  .projects {
+    text-align: center;
   }
 }
