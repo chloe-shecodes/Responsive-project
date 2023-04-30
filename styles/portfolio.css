@@ -33,6 +33,7 @@ ul {
 
 .hero {
   background-color: var(--second-color-background);
+  justify-content: center;
 }
 .row {
   flex-wrap: nowrap;
@@ -92,6 +93,9 @@ ul {
 }
 
 @media (max-width: 768px) {
+  h1 {
+    font-size: 44px;
+  }
   .container {
     text-align: center;
     margin: 15px;
@@ -109,5 +113,8 @@ ul {
   .timeline {
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
+  }
+  .timeline li {
+    font-size: 13px;
   }
 }
