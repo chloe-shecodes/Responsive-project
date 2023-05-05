@@ -27,6 +27,7 @@ h3 {
   color: var(--first-color-text);
   font-family: var(--secondary-font);
   font-weight: 300;
+  margin: 0;
 }
 ul {
   list-style: none;
@@ -171,12 +172,14 @@ ul {
   background-color: var(--fourth-color-background);
   border-radius: 5px;
   border-top-right-radius: 30px;
-  padding: 15px 25px;
+  padding: 15px;
   box-shadow: 5px 3px 3px var(--box-shadow-color);
 }
 
 .about-paragraph p {
   color: var(--second-color-text);
+  margin: 0;
+  font-weight: 200;
 }
 
 @media (max-width: 768px) {
