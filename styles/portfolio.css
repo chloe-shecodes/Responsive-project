@@ -51,6 +51,7 @@ ul {
   border-radius: 5px;
   border-top-left-radius: 30px;
   padding: 15px 25px;
+  box-shadow: 5px 3px 3px var(--fourth-color-background);
 }
 
 .locations .primary-word {
@@ -75,6 +76,7 @@ ul {
   border-bottom-left-radius: 30px;
   border-top-right-radius: 30px;
   padding: 10px;
+  box-shadow: 5px 3px 3px var(--fourth-color-background);
 }
 
 .hero-button:hover {
@@ -87,6 +89,7 @@ ul {
   padding: 50px 40px;
   border-radius: 5px;
   border-bottom-right-radius: 45px;
+  box-shadow: 5px 3px 3px var(--third-color);
 }
 
 .timeline .primary-word {
