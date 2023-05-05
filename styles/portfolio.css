@@ -6,6 +6,7 @@
   --third-color: #ffd3b6;
   --fourth-color-text: #698474;
   --fourth-color-background: rgba(105, 132, 116, 0.9);
+  --box-shadow-color: #5f7768;
   --primary-font: "Montserrat", sans-serif;
   --secondary-font: "Roboto", sans-serif;
 }
@@ -89,7 +90,7 @@ ul {
   padding: 50px 40px;
   border-radius: 5px;
   border-bottom-right-radius: 45px;
-  box-shadow: 5px 3px 3px #556a5d;
+  box-shadow: 5px 3px 3px var(--box-shadow-color);
 }
 
 .timeline .primary-word {
@@ -121,7 +122,7 @@ ul {
   padding: 4px;
   background-color: var(--third-color);
   opacity: 75%;
-  box-shadow: 10px 5px 5px #556a5d;
+  box-shadow: 10px 5px 5px var(--box-shadow-color);
 }
 
 .projects .primary-word {
@@ -137,7 +138,7 @@ ul {
   font-family: var(--primary-font);
   border-radius: 25px;
   padding: 10px 20px;
-  box-shadow: 5px 3px 3px #5f7768;
+  box-shadow: 5px 3px 3px var(--box-shadow-color);
 }
 
 .learn-more-button:hover {
