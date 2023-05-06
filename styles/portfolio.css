@@ -46,7 +46,7 @@ ul {
   justify-content: center;
   max-width: 900px;
 }
-.coordinates {
+.personal-content {
   flex-direction: column;
   justify-content: space-between;
 }
@@ -171,16 +171,14 @@ ul {
   h1 {
     font-size: 44px;
   }
-  .personal-info {
+  .personal-container {
     text-align: center;
-    margin: 15px;
+    margin: 22px;
   }
-  .coordinates {
+  .personal-content {
     padding: 0;
   }
-
   .locations {
-    border-radius: 5px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     padding: 10px, 0px;
@@ -188,6 +186,7 @@ ul {
   .timeline {
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
+    padding: 30px 2px;
   }
 
   .projects {
