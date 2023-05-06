@@ -153,19 +153,10 @@ ul {
 }
 
 .about-img {
-  background-color: var(--third-color);
   border-radius: 5px;
   border-top-left-radius: 45px;
-  box-shadow: 7px 5px 5px var(--box-shadow-color);
-  padding: 10px;
-  justify-content: center;
-}
-
-.about-img img {
-  border-radius: 5px;
-  border-top-right-radius: 45px;
-  transform: scaleX(-1);
-  align-self: center;
+  border: 10px solid var(--third-color);
+  box-shadow: 5px 5px 7px var(--box-shadow-color);
 }
 
 .about-paragraph {
@@ -174,7 +165,7 @@ ul {
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   padding: 15px;
-  box-shadow: 10px 5px 5px var(--third-color);
+  box-shadow: 10px 5px 5px var(--box-shadow-color);
 }
 
 .about-paragraph p {
@@ -208,5 +199,17 @@ ul {
 
   .projects {
     text-align: center;
+  }
+
+  .about-img {
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    border: 15px solid var(--third-color);
+  }
+
+  .about-paragraph {
+    border-radius: 5px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
   }
 }
