@@ -6,7 +6,7 @@
   --third-color: #ffd3b6;
   --fourth-color-text: #698474;
   --fourth-color-background: rgba(105, 132, 116, 0.9);
-  --box-shadow-color: #5f7768;
+  --box-shadow-color: rgb(95, 119, 104);
   --primary-font: "Montserrat", sans-serif;
   --secondary-font: "Roboto", sans-serif;
 }
@@ -156,7 +156,7 @@ ul {
   background-color: var(--third-color);
   border-radius: 5px;
   border-top-left-radius: 45px;
-  box-shadow: 5px 3px 3px var(--box-shadow-color);
+  box-shadow: 7px 5px 5px var(--box-shadow-color);
   padding: 10px;
   justify-content: center;
 }
@@ -172,8 +172,9 @@ ul {
   background-color: var(--fourth-color-background);
   border-radius: 5px;
   border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
   padding: 15px;
-  box-shadow: 5px 3px 3px var(--box-shadow-color);
+  box-shadow: 10px 5px 5px var(--third-color);
 }
 
 .about-paragraph p {
