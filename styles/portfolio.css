@@ -36,6 +36,10 @@ ul {
   line-height: 1.9;
 }
 
+.about-page {
+  background-color: var(--second-color);
+}
+
 .hero {
   background-color: #fcf8f3;
   justify-content: center;
@@ -156,7 +160,7 @@ ul {
   border-radius: 5px;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
-  padding: 15px;
+  padding: 20px;
   box-shadow: 5px 3px 3px var(--box-shadow-color);
 }
 
