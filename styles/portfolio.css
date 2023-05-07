@@ -37,6 +37,14 @@ ul {
   line-height: 1.9;
 }
 
+a {
+  text-decoration: none;
+  color: var(--second-color);
+}
+a:hover {
+  color: var(--third-color);
+}
+
 .hero {
   background-color: #fcf8f3;
   justify-content: center;
@@ -178,10 +186,12 @@ ul {
   border-top-right-radius: 45px;
 }
 
-.former h1 {
+.former h1,
+.contact h1 {
   color: rgba(var(--first-color));
 }
-.former .personal-summary {
+.former .personal-summary,
+.contact .personal-summary {
   border-top-left-radius: 45px;
   border-bottom-right-radius: 45px;
 }
@@ -202,7 +212,7 @@ ul {
     border-top-right-radius: 30px;
     padding: 10px, 0px;
   }
-  .personal-summary {
+  .homepage .personal-summary {
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
     padding: 30px 2px;
