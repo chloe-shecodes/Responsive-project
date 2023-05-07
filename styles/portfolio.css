@@ -152,7 +152,10 @@ ul {
   opacity: 75%;
   box-shadow: 10px 5px 5px var(--box-shadow-color);
 }
-
+.project-image:hover {
+  border: 2px solid rgb(var(--first-color));
+  background-color: rgb(var(--first-color));
+}
 .primary-word {
   font-family: var(--primary-font);
   color: rgba(var(--first-color));
