@@ -47,7 +47,7 @@ ul {
   justify-content: center;
   max-width: 900px;
 }
-.personal-wrapper {
+.wrapper {
   flex-direction: column;
   justify-content: space-between;
 }
@@ -138,8 +138,8 @@ ul {
   color: rgba(var(--fourth-color));
 }
 
-.projects {
-  font-family: var(--secondary-font);
+.projects p {
+  font-size: 12px;
 }
 
 .project-image {
@@ -153,7 +153,7 @@ ul {
   box-shadow: 10px 5px 5px var(--box-shadow-color);
 }
 
-.projects .primary-word {
+.primary-word {
   font-family: var(--primary-font);
   color: rgba(var(--first-color));
   font-size: 17px;
