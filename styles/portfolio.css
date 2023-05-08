@@ -27,11 +27,24 @@ nav {
 }
 
 .nav-link:hover,
-.homepage-icon:hover {
+.homepage-icon:hover,
+.custom-toggler-icon:hover {
   color: rgb(var(--third-color));
 }
 .navbar-toggler {
   border-color: rgb(var(--first-color));
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.active-link {
+  color: rgb(var(--third-color));
+  font-weight: bold;
+}
+
+.navbar-collapse {
+  text-align: left;
 }
 
 h1 {
@@ -217,6 +230,10 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+  .hero {
+    padding: 0;
+  }
+
   h1 {
     font-size: 44px;
   }
