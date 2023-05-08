@@ -24,6 +24,11 @@ nav {
 .nav-link {
   color: rgb(var(--first-color));
 }
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: rgb(var(--first-color));
+}
 .navbar-toggler {
   border-color: rgb(var(--first-color));
 }
