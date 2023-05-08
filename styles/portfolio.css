@@ -8,7 +8,8 @@
   --secondary-font: "Roboto", sans-serif;
 }
 
-body {
+body,
+nav {
   background-color: rgba(var(--fourth-color), 0.9);
   font-family: var(--secondary-font);
   color: rgb(var(--third-color));
@@ -16,8 +17,15 @@ body {
 }
 
 nav {
-  background-color: rgb(var(--fourth-color), 0.9);
+  font-family: var(--primary-font);
+}
+
+.navbar-brand,
+.nav-link {
   color: rgb(var(--first-color));
+}
+.navbar-toggler {
+  border-color: rgb(var(--first-color));
 }
 
 h1 {
