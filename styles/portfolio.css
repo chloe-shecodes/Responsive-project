@@ -8,8 +8,7 @@
   --secondary-font: "Roboto", sans-serif;
 }
 
-body,
-nav {
+body {
   background-color: rgba(var(--fourth-color), 0.9);
   font-family: var(--secondary-font);
   color: rgb(var(--third-color));
@@ -17,29 +16,32 @@ nav {
 }
 
 nav {
+  background-color: rgba(var(--second-color), 0.9);
   font-family: var(--primary-font);
+  box-shadow: 5px 3px 3px var(--box-shadow-color);
 }
 
 .navbar-brand,
 .nav-link,
 .custom-toggler-icon {
-  color: rgb(var(--first-color));
+  color: rgb(var(--fourth-color));
 }
 
 .nav-link:hover,
 .homepage-icon:hover,
 .custom-toggler-icon:hover {
-  color: rgb(var(--third-color));
+  color: rgb(var(--first-color));
+  font-weight: 500;
 }
 .navbar-toggler {
-  border-color: rgb(var(--first-color));
+  border-color: rgb(var(--fourth-color));
 }
 .navbar-toggler:focus {
   box-shadow: none;
 }
 
 .active-link {
-  color: rgb(var(--third-color));
+  color: rgb(var(--first-color));
   font-weight: bold;
 }
 
