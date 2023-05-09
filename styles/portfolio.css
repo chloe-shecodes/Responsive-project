@@ -32,6 +32,7 @@ nav {
 .custom-toggler-icon:hover {
   color: rgb(var(--first-color));
   font-weight: 500;
+  transition: all 100ms ease-in-out;
 }
 .navbar-toggler {
   border-color: rgb(var(--fourth-color));
@@ -206,10 +207,6 @@ a:hover {
   font-weight: 400;
 }
 
-.about {
-  background-color: rgb(var(--second-color));
-}
-
 .about-img {
   border-radius: 5px;
   border-top-left-radius: 45px;
@@ -231,6 +228,23 @@ a:hover {
   border-bottom-right-radius: 45px;
 }
 
+footer {
+  justify-content: center;
+  margin-top: 100px;
+}
+footer .social-link {
+  color: rgb(var(--third-color), 0.6);
+  margin: 20px;
+  background-color: rgb(var(--first-color), 0.1);
+  padding: 25px 15px;
+  border-radius: 50px;
+}
+
+footer .social-link:hover {
+  color: rgb(var(--fourth-color));
+  background-color: rgb(var(--third-color), 0.6);
+  transition: all 100ms ease-in-out;
+}
 @media (max-width: 768px) {
   .hero {
     padding: 0;
