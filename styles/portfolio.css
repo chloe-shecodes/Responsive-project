@@ -83,7 +83,7 @@ a:hover {
 .hero {
   background-color: rgb(var(--second-color));
   justify-content: center;
-  padding: 70px 0;
+  padding: 40px 0;
 }
 .row {
   flex-wrap: nowrap;
@@ -231,6 +231,7 @@ a:hover {
 footer {
   justify-content: center;
   margin-top: 100px;
+  margin-bottom: 10px;
 }
 footer .social-link {
   color: rgb(var(--third-color), 0.6);
