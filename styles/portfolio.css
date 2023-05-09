@@ -172,8 +172,9 @@ a:hover {
   border: 2px solid rgba(var(--first-color), 0.8);
   color: rgb(var(--third-color));
   font-family: var(--primary-font);
+  font-size: 12px;
   border-radius: 25px;
-  padding: 10px 20px;
+  padding: 5px 15px;
   box-shadow: 5px 3px 3px var(--box-shadow-color);
 }
 
