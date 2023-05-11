@@ -21,35 +21,6 @@ nav {
   box-shadow: 5px 3px 3px var(--box-shadow-color);
 }
 
-.navbar-brand,
-.nav-link,
-.custom-toggler-icon {
-  color: rgb(var(--fourth-color));
-}
-
-.nav-link:hover,
-.homepage-icon:hover,
-.custom-toggler-icon:hover {
-  color: rgb(var(--first-color));
-  font-weight: 500;
-  transition: all 100ms ease-in-out;
-}
-.navbar-toggler {
-  border-color: rgb(var(--fourth-color));
-}
-.navbar-toggler:focus {
-  box-shadow: none;
-}
-
-.active-link {
-  color: rgb(var(--first-color));
-  font-weight: bold;
-}
-
-.navbar-collapse {
-  text-align: left;
-}
-
 h1 {
   font-family: var(--primary-font);
   color: rgba(var(--fourth-color));
@@ -78,6 +49,35 @@ a {
 }
 a:hover {
   color: rgb(var(--third-color));
+}
+
+.navbar-brand,
+.nav-link,
+.custom-toggler-icon {
+  color: rgb(var(--fourth-color));
+}
+
+.nav-link:hover,
+.homepage-icon:hover,
+.custom-toggler-icon:hover {
+  color: rgb(var(--first-color));
+  font-weight: 500;
+  transition: all 100ms ease-in-out;
+}
+.navbar-toggler {
+  border-color: rgb(var(--fourth-color));
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.active-link {
+  color: rgb(var(--first-color));
+  font-weight: bold;
+}
+
+.navbar-collapse {
+  text-align: left;
 }
 
 .hero {
@@ -247,6 +247,12 @@ footer .social-link:hover {
   background-color: rgb(var(--third-color), 0.6);
   transition: all 100ms ease-in-out;
 }
+
+footer p,
+footer .primary-word {
+  font-size: 8px;
+}
+
 @media (max-width: 768px) {
   .hero {
     padding: 0;
