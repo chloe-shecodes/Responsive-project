@@ -284,7 +284,7 @@ footer .social-link:hover {
     border: 15px solid rgb(var(--third-color));
   }
 
-  .about-paragraph {
+  .about .personal-summary {
     border-radius: 5px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
